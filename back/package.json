@@ -1,0 +1,21 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "bla",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "velomi": "nodemon server.js"
+  },
+  "author": "mirantoPrincy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "edit-json-file": "^1.2.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
